@@ -1,7 +1,5 @@
 package com.example.springcourseapidata.topic;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -21,32 +19,32 @@ public class Topic {
         this.description = description;
     }
 
-    @Getter
+
     public String getId() {
         return id;
     }
 
-    @Setter
+
     public void setId(String id) {
         this.id = id;
     }
 
-    @Getter
+
     public String getName() {
         return name;
     }
 
-    @Setter
+
     public void setName(String name) {
         this.name = name;
     }
 
-    @Getter
+
     public String getDescription() {
         return description;
     }
 
-    @Setter
+
     public void setDescription(String description) {
         this.description = description;
     }
