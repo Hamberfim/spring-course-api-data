@@ -15,12 +15,12 @@ public class TopicService {
     @Autowired
     private TopicRepository topicRepository;
 
-    private List<Topic> topics = new ArrayList<>(Arrays.asList(  // hardcode dummy data - Spring will automatically convert it to JSON
-            new Topic("Spring", "Spring Framework", "a description of the Spring Framework"),
-            new Topic("Java", "Core Java", "a description of core java"),
-            new Topic("Javascript", "Javascript", "a description of javascript"),
-            new Topic("Typescript", "Typescript", "a description of typescript")
-    ));
+//    private List<Topic> topics = new ArrayList<>(Arrays.asList(  // hardcode dummy data - Spring will automatically convert it to JSON
+//            new Topic("Spring", "Spring Framework", "a description of the Spring Framework"),
+//            new Topic("Java", "Core Java", "a description of core java"),
+//            new Topic("Javascript", "Javascript", "a description of javascript"),
+//            new Topic("Typescript", "Typescript", "a description of typescript")
+//    ));
 
     public List<Topic> getAllTopics() {
         // return topics;
